@@ -14,7 +14,7 @@ let taken = 0
 
 while(newBudget > breakPoint1){
     taken = Number(prompt("inserisci quanto prelevi.."))
-    newBudget = initialBudget - taken 
+    newBudget = newBudget - taken 
     console.log(newBudget)
 }
 
@@ -29,6 +29,7 @@ while(newBudget > breakPoint2){
 alert("se sotto il 5% del budget iniziale")
 
 
+// TENTATIVO DI FARE LA STESSA COSA CON "FOR"
 
 // for (let i=0; newBudget > breakPoint1&&i<5; i++){
 //     taken = Number(prompt("inserisci quanto prelevi.."))
