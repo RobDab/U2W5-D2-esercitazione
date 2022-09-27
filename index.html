@@ -14,13 +14,18 @@
       <div>
         <h2>Inserisci il budget iniziale:</h2>
         <input type="text" placeholder="valuta in €" id="initialBudget" />
+        <button onclick="setBudget()">Set Budget</button>
+        <div>
+          <p id="show"></p>
+        </div>
       </div>
       <div>
         <label for="valuta">€</label>
         <input type="text" name="valuta" placeholder="inserisci l'importo prelevato dal Budget" id="take" />
+        <button onclick="showNew()">Premi</button>
       </div>
       <div>
-        <p>Rimane il: <span></span>% del budget iniziale</p>
+        <p>Rimangono <span id="still"></span>€</p>
       </div>
     </div>
 
